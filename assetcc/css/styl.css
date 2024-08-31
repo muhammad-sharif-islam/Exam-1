@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+
+:root {
+  --heading-font: "Overlock", sans-serif;
+  --body-font: "Lato", sans-serif;
+  --primary-color: #8454F5;
+  --secondary-color: #FFC556;
+} 
+
+
+body{
+  font-family: var(--body-font);
+  /* width: 1400px; */
+  margin: 0 auto;
+}
+
+ul{
+list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+ 
+.header{
+  background-image: url(../image/bacgrond1.png);
+  width: 100%;
+  height: 660px;
+  object-fit: cover;
+}
+
+
+
+/* ......................................................................... */
+
+
+
+.list ul{
+  margin-left: 210px;
+    margin-top: 15px;
+  }
+    
+    .icon-nav {
+      margin-left: auto;
+      color: red;
+    }
+
+    
+
+.icon-nav :hover{
+  background-color: rgba(255, 0, 0, 0.703);
+  border-radius: 5px;
+  border: 1px solid red;
+}
+.lisdt :hover .icon-nav,
+.services .services-content .service-item:hover p {
+  color: hsla(0, 0%, 100%, 0.100);
+} 
+/* ............................................title ..................................*/
+
+
+
+.hading h1 {
+  color: #fff;
+  font-size: 145px;
+  font-family: var(--heading-font);
+  font-weight: 400px;
+  line-height: 140px;
+  margin-top: 105px;
+ 
+}
+
+
+.hading span {
+  font-size: 36px;
+  line-height: 28px;
+  font-family: var(--heading-font);
+  background-color: #e7272d;
+  padding: 10px;
+  color: #fff;
+   margin-left: 200px; 
+   border-radius: 5px;
+}
+ 
+.hading p{
+  font-family: var(--body-font);
+font-size: 24px;
+font-weight: 400px;
+margin-top: 10px;
+color: #fff;
+margin-top: 20px;
+} 
+
+.last-2{
+  width: 200px;
+  height: 3px;
+  background-color: #E7272D;
+   margin-left: 500px;
+  margin-top: 40px;
+}
+
+
+
+
+
+/* ................................................................. */
+
+
+/* food */
+
+ .text h2{
+  width: 500px;
+  font-size: 48px;
+  font-family: var(--heading-font);
+  font-weight: 700;
+  line-height: 64px;
+}
+
+
+.paragraph p{
+  width: 265px;
+height: 182px;
+left: 18px;
+font-family: var(--body-font);
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.paragraph button{
+  background-color: hsl(358, 80%, 53%);
+  border: 0px;
+}
+
+.saph span{
+  font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.2px;
+text-align: left;
+width: 80px;
+height: 19px;
+}
+
+.saph {
+  
+    background-image: url(../image/bacground\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 235pxpx;
+  object-fit: cover;
+  margin-left: 18px;
+  padding-left: 15px;
+}
+
+
+/* Specials Menu */
+
+.min-menu h2{
+  font-size: 48px;
+  font-family: var(--heading-font);
+  line-height: 64px;
+  margin-top: 80px;
+  font-weight: 700px;
+}
+ 
+ .min-menu .vip-menubox ul{
+   width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  color: #fff;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+} 
+
+
+.min-menu li{
+ padding: 15px 29px;
+}
+
+
+.min-menu li:hover{
+  background-color: rgba(255, 0, 0, 0.703);
+  border-radius: 5px;
+}
+.min-menu:hover li,
+.services .services-content .service-item:hover p {
+  color: #ffff;
+}
+
+
+.food-text-1{
+  background-color: #fff;
+  color: #1b1b1b;
+  border-top-right-radius: 10px;
+  padding: 5px 5px 0 5px;
+  margin-top: 50px;
+  font-size: 18px;
+  bottom: 0;
+} 
+
+.food-text-2{
+  margin-bottom: 20px;
+}
+
+.food-text-2 p{
+  margin: 0 10px;
+}
+
+
+.food-text-2 .fol-stop{
+  width: 10px;
+  height: 10px;
+  margin-top: 8px;
+  background-color: red;
+  border: 1px;
+  border-radius: 50px;
+}
+
+.click{
+  width: 250px;
+  height: 40px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  border: 1px solid #FFC556;
+}
+
+
+
+.click a{
+  color: #E7272D;
+  /* display: inline-block; */
+}
+
+.click i{
+  font-size: 18px;
+   color: #E7272D;
+}
+
+
+.click:hover{
+  background-color: rgba(255, 0, 0, 0.703);
+  border-radius: 50px;
+  width: 250px;
+  height: 80%;
+  /* margin-bottom: 10px; */
+}
+.click:hover i,
+.services .services-content .service-item:hover  {
+  color: #ffff;
+}
+.click:hover a,
+.services .services-content .service-item:hover  {
+  color: #ffff;
+}
+
+
+
+
+/*............................. table ....................................*/
+
+.abc{
+
+  height: 527px;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../image/bacgrond\ 3.png);
+   background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.all-abc{
+transition: none;
+}
+
+.abc-hading h2{
+  font-size: 48px;
+  font-family: var(--heading-font);
+  line-height: 64px;
+  margin: 40px 30px 15px 50px;
+}
+
+
+.abc-hading p{
+  font-size: 14px;
+  font-family: var(--body-font);
+  line-height: 28px;
+  margin: 20px 20px 10px 40px;
+}
+
+
+.min-abc{
+  display: flex;
+  justify-content: space-between;
+}
+
+.min-abc strong{
+  font-size: 16px;
+  font-family: var(--body-font);
+   margin: 20px 20px 10px 40px;
+ }
+
+.min-abc p{
+  font-size: 14px;
+  font-family: var(--body-font);
+   margin: 20px 20px 10px 40px;
+}
+
+
+/* ..............................   FORM  ................................ */
+
+.box-my{
+  transition: none;
+  margin: 60px 130px 60px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.box-my button{
+  width: 100px;
+  margin: 0 0 10px 20px;
+}
+
+/* .........................      Food Gallery   ................................ */
+
+.gallery-name h3 {
+  font-size: 48px;
+  font-family: var(--heading-font);
+  line-height: 64px;
+  color: #1B1B1B;
+  text-align: center;
+  margin: 80px 19px 50px 19px;
+ }
+
+.food-ig {
+    object-fit: cover; 
+    justify-content: space-between;
+ }
+
+
+ /* .........................      footer      ............................ */
+
+.footer {
+  background-color: #1B1B1B;
+   background-image: url(../image/last.png);
+}
+
+.footer-section-1 h6 {
+  font-size: 18px;
+}
+
+.footer-section-1 ul li  {
+   margin-left: 0;
+   border: 1px solid red; 
+   border-radius: 5px;
+   padding: 10px;
+   height: 40px;
+   background-color: #fff;
+}
+
+
+  .footer-section-1 a:hover i,
+.contact-info ul i:hover {
+  background-color: red;
+  color: #fff;
+  border-radius:10%;
+  font-size: 25px;
+}
+
+
+
+.footer-sction-2 h4{
+  font-size: 18px;
+margin-left: 40px;
+}
+
+
+.footer-sction-2 li{
+  margin: 0 0 5px 10px;
+}
+
+.footer-sction-3 h4{
+  font-size: 18px;
+}
+
+
+.footer-sction-4 h4{
+  font-size: 18px;
+}
+ 
+
+  .footer-section-3 ul:hover i,
+.contact-info ul i:hover {
+  background-color: chartreuse;
+  color: #fff;
+  border-radius:10%;
+  font-size: 25px;
+} 
+
+
+
+.footer-section .sochal-icon a i,
+.contact-info ul i {
+  font-size: 22px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #E7272D;
+}
+
+ .footer-section .contact-info ul li i {
+  margin-right: 10px;
+} 
+
+
+  .footer-Subscription [type="email"] {
+  flex: 1;
+  border: none;
+  font-size: 14px;
+  outline: none;  
+}
+
+
+.footer-Subscription input {
+  width: 300px;
+}
+
+.footer-Subscription button {
+  border: none;
+  background-color: #E7272D;
+  margin-top: 12px;
+    
+}
+
+
